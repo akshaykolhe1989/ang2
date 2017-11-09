@@ -19,7 +19,13 @@
     <script src="systemjs.config.js"></script>
   </head>
   
-  <body class="container">
-    
+  <script>
+    System.import('app').
+      catch(function(err){console.error(err);})
+  </script>
+  <body>
+    <pm-root></pm-root>
+    <!--<pm-branch></pm-branch>-->
+
   </body>
 </html>
