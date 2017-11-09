@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+    //moduleId: module.id, // Use this if you need below >>  templateUrl: './products/product-list.component.html'
     selector: 'pm-products',
+    //templateUrl: './products/product-list.component.html'
     templateUrl: './app/products/product-list.component.html'
 })
 export class ProductListComponent{
